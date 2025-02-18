@@ -471,6 +471,7 @@ type (
 		Product *MessageProduct `json:"product,omitempty"`
 		Order   *MessageOrder   `json:"order,omitempty"`
 		Dialog  *MessageDialog  `json:"dialog,omitempty"`
+		Utm     *Utm            `json:"utm,omitempty"`
 		*TextMessage
 		*SystemMessage
 		*AttachmentList
